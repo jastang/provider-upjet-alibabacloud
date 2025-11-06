@@ -55,7 +55,7 @@ Tag the release branch with the version by running the GitHub workflow named `Ta
 
 Build and push the family packages using the `Publish Provider Packages` Github Actions workflow. To do this, you need to provide the values of the following parameters:
 
-- subpackages (to be built individually (e.g. config ram): config ack ackone alb alidns cdn cloudmonitorservice ecs fcv3 kms messageservice oss polardb privatelink quotas ram slb tair vpc
+- subpackages (to be built individually, e.g. config ram): config ack ackone alb alidns cdn cloudmonitorservice ecs fcv3 kms messageservice oss polardb privatelink quotas ram slb tair vpc
 - size (Number of smaller provider packages to build and push with each build job): 30
 - concurrency (Number of parallel package builds within each build job): 1
 - version (Version string to use while publishing the packages,e.g. v1.2.0): v1.2.0
