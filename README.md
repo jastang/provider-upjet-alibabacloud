@@ -33,8 +33,6 @@ export UPTEST_CLOUD_CREDENTIALS='{
 
 Identify the version to be released by increasing the minor version by one. For example, if the provider's latest version is v1.1.0, the new version will be v1.2.0.
 
-[!NOTE]
-
 According to the semantic versioning specification, a version number is represented as MAJOR.MINOR.PATCH. For 1.2.0 : MAJOR=1, MINOR=2, PATCH=0 
 
 ### Create Release Branch
